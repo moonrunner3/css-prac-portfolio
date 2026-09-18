@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bree+Serif&family=Chelsea+Market&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap');
+body{
+      font-family: "JetBrains Mono", monospace;
+
+}
+#home {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(174, 248, 190);
+    color: rgb(61, 123, 14);
+    
+}
+* {
+     margin: 0%;
+    box-sizing: border-box;
+}
+
+.name {
+    margin-bottom: 10px;
+    padding-top: 50px;
+}
+.profession {
+    margin-bottom: 10px;
+}
+
+#download-button{
+      background-color: rgb(246, 246, 246);
+      color: rgb(1, 75, 5);
+      width: 160px;
+      height: 40px;
+      border-radius: 10px;
+      border-color: aliceblue;
+      font-family: "JetBrains Mono", monospace;
+
+}
+
+#navi{
+     background-color: rgb(42, 131, 226);
+     padding: 10px 10px;
+     text-align: center;
+     position: fixed;
+     width: 100%;
+
+}
+
+#navi a{
+    color: aliceblue;
+}
+#about{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    color: rgb(13, 76, 233);
+}
+#about h1{
+    padding: 10px 10px;
+}
+#skills{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(242, 191, 98);
+    color: rgb(0, 0, 0);
+}
+#skills h1{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+#contact{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(251, 136, 163);
+    color: rgb(116, 0, 48);
+    text-align: center;
+}
+#contact h1{
+    padding: 10px 10px;
+    
+}
+#contact a{
+    color:rgb(116, 0, 48);
+    padding: 5px;
+    margin: 5px;
+}
+#contact p{
+    padding: 0%;
+    margin: 0%;
+}
+
+#download-button:hover {
+ background-color: rgb(1, 75, 5);
+ color: rgb(246, 246, 246);
+ box-shadow: 10px;
+}
+.home-img img {
+width: 600px;
+height: 600px;
+}
+.about-img img {
+    padding-top: 100px;
+width: 600px;
+height: 600px;
+}
+.skills-img img {
+width: 600px;
+height: 600px;
+position: relative;
+left: 25%;
+}
+
+.contact-img img {
+width: 400px;
+height: 400px;
+padding-top: 5%;
+}
+.greeting {
+position: relative;
+top: 10%;
+}
+
