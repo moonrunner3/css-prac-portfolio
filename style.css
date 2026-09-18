@@ -41,6 +41,7 @@ body{
      text-align: center;
      position: fixed;
      width: 100%;
+     z-index: 1000;
 
 }
 
@@ -97,23 +98,27 @@ body{
 .home-img img {
 width: 600px;
 height: 600px;
+z-index: 1;
 }
 .about-img img {
     padding-top: 100px;
 width: 600px;
 height: 600px;
+z-index: 1;
 }
 .skills-img img {
 width: 600px;
 height: 600px;
 position: relative;
 left: 25%;
+z-index: 1;
 }
 
 .contact-img img {
 width: 400px;
 height: 400px;
 padding-top: 5%;
+z-index: 1;
 }
 .greeting {
 position: relative;
